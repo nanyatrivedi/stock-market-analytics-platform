@@ -704,13 +704,15 @@ if data.empty:
 
 data.reset_index(inplace=True)
 
+data.columns = [
+    col[0] if isinstance(col, tuple) else col
+    for col in data.columns
+]
+
 data.rename(
     columns={data.columns[0]: 'Date'},
     inplace=True
 )
-
-if isinstance(data.columns, pd.MultiIndex):
-    data.columns = data.columns.get_level_values(0)
 
 with tab1:
     show_overview()
