@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ticker = "AAPL"
+
 data = yf.download(ticker, start="2023-01-01", end="2024-01-01")
 
 print(data.head())
