@@ -58,7 +58,7 @@ def show_overview():
     st.subheader("Candlestick Chart")
 
     fig = go.Figure(data=[go.Candlestick(
-    x=data['Date'],
+    x=data[date_column],
     open=data['Open'],
     high=data['High'],
     low=data['Low'],
@@ -251,7 +251,7 @@ def show_technical_indicators():
     fig4 = go.Figure()
 
     fig4.add_trace(go.Bar(
-        x=data['Date'],
+        x=data[date_column],
         y=data['Volume'],
         name='Volume'
     ))
@@ -462,14 +462,14 @@ def show_portfolio():
     fig_strategy = go.Figure()
 
     fig_strategy.add_trace(go.Scatter(
-        x=data['Date'],
+        x=data[date_column],
         y=data['Cumulative Market Return'],
         mode='lines',
         name='Buy & Hold'
     ))
 
     fig_strategy.add_trace(go.Scatter(
-        x=data['Date'],
+        x=data[date_column],
         y=data['Cumulative Strategy Return'],
         mode='lines',
         name='Strategy Return'
@@ -515,7 +515,7 @@ def show_portfolio():
     fig_signals = go.Figure()
 
     fig_signals.add_trace(go.Scatter(
-        x=data['Date'],
+        x=data[date_column],
         y=data['Close'],
         mode='lines',
         name='Closing Price'
@@ -703,6 +703,7 @@ if data.empty:
     st.stop()
 
 data.reset_index(inplace=True)
+date_column = data.columns[0]
 
 if isinstance(data.columns, pd.MultiIndex):
     data.columns = data.columns.get_level_values(0)
