@@ -698,6 +698,10 @@ with st.spinner("Loading market data..."):
         end=end_date
     )
 
+if data.empty:
+    st.error("No stock data found. Please try another ticker.")
+    st.stop()
+
 data.reset_index(inplace=True)
 
 if isinstance(data.columns, pd.MultiIndex):
