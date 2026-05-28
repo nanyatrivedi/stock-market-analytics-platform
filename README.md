@@ -151,54 +151,55 @@ streamlit run app/dashboard.py
 
 ---
 
+---
 
 # Screenshots
 
 ## Dashboard Overview
 
-![Dashboard Overview](assets/Screenshot%202026-05-28%20at%2010.15.26%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.15.26 PM.png" width="100%">
 
 ---
 
 ## Candlestick Chart
 
-![Candlestick Chart](assets/Screenshot%202026-05-28%20at%2010.15.35%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.15.35 PM.png" width="100%">
 
 ---
 
 ## Moving Averages
 
-![Moving Averages](assets/Screenshot%202026-05-28%20at%2010.15.39%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.15.39 PM.png" width="100%">
 
 ---
 
 ## Technical Indicators
 
-![Technical Indicators](assets/Screenshot%202026-05-28%20at%2010.15.45%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.15.45 PM.png" width="100%">
 
 ---
 
 ## AI Prediction
 
-![AI Prediction](assets/Screenshot%202026-05-28%20at%2010.16.04%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.16.04 PM.png" width="100%">
 
 ---
 
 ## Portfolio Analytics
 
-![Portfolio Analytics](assets/Screenshot%202026-05-28%20at%2010.16.58%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.16.58 PM.png" width="100%">
 
 ---
 
 ## Strategy Backtesting
 
-![Strategy Backtesting](assets/Screenshot%202026-05-28%20at%2010.17.08%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.17.08 PM.png" width="100%">
 
 ---
 
 ## News Sentiment Analysis
 
-![News Sentiment](assets/Screenshot%202026-05-28%20at%2010.17.27%20PM.png)
+<img src="assets/Screenshot 2026-05-28 at 10.17.27 PM.png" width="100%">
 
 
 # Future Improvements
