@@ -4,10 +4,9 @@ An interactive financial analytics platform built using Python, Streamlit, Sciki
 
 ## Live Demo
 
-https://stock-market-analytics-platform-pgdzimo2unvz4v8v6dvrzs.streamlit.app
-
-
----
+[Launch Live App](https://stock-market-analytics-platform-pgdzimo2unvz4v8v6dvrzs.streamlit.app)
+ 
+ ---
 
 # Features
 
@@ -113,7 +112,7 @@ stock-market-analysis/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/stock-market-analytics-platform.git
+git clone https://github.com/nanyatrivedi/stock-market-analytics-platform.git
 ```
 
 ## Navigate to Project Folder
@@ -151,6 +150,56 @@ streamlit run app/dashboard.py
 ```
 
 ---
+
+
+# Screenshots
+
+## Dashboard Overview
+
+![Dashboard Overview](assets/Screenshot%202026-05-28%20at%2010.15.26%20PM.png)
+
+---
+
+## Candlestick Chart
+
+![Candlestick Chart](assets/Screenshot%202026-05-28%20at%2010.15.35%20PM.png)
+
+---
+
+## Moving Averages
+
+![Moving Averages](assets/Screenshot%202026-05-28%20at%2010.15.39%20PM.png)
+
+---
+
+## Technical Indicators
+
+![Technical Indicators](assets/Screenshot%202026-05-28%20at%2010.15.45%20PM.png)
+
+---
+
+## AI Prediction
+
+![AI Prediction](assets/Screenshot%202026-05-28%20at%2010.16.04%20PM.png)
+
+---
+
+## Portfolio Analytics
+
+![Portfolio Analytics](assets/Screenshot%202026-05-28%20at%2010.16.58%20PM.png)
+
+---
+
+## Strategy Backtesting
+
+![Strategy Backtesting](assets/Screenshot%202026-05-28%20at%2010.17.08%20PM.png)
+
+---
+
+## News Sentiment Analysis
+
+![News Sentiment](assets/Screenshot%202026-05-28%20at%2010.17.27%20PM.png)
+
 
 # Future Improvements
 
