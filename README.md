@@ -151,56 +151,55 @@ streamlit run app/dashboard.py
 
 ---
 
----
-
 # Screenshots
 
 ## Dashboard Overview
 
-<img src="assets/Screenshot 2026-05-28 at 10.15.26 PM.png" width="100%">
+![Dashboard Overview](assets/dashboard.png)
 
 ---
 
 ## Candlestick Chart
 
-<img src="assets/Screenshot 2026-05-28 at 10.15.35 PM.png" width="100%">
+![Candlestick Chart](assets/candlestick.png)
 
 ---
 
 ## Moving Averages
 
-<img src="assets/Screenshot 2026-05-28 at 10.15.39 PM.png" width="100%">
+![Moving Averages](assets/moving-average.png)
 
 ---
 
 ## Technical Indicators
 
-<img src="assets/Screenshot 2026-05-28 at 10.15.45 PM.png" width="100%">
+![Technical Indicators](assets/technical-indicators.png)
 
 ---
 
 ## AI Prediction
 
-<img src="assets/Screenshot 2026-05-28 at 10.16.04 PM.png" width="100%">
+![AI Prediction](assets/ai-prediction.png)
 
 ---
 
 ## Portfolio Analytics
 
-<img src="assets/Screenshot 2026-05-28 at 10.16.58 PM.png" width="100%">
+![Portfolio Analytics](assets/portfolio.png)
 
 ---
 
 ## Strategy Backtesting
 
-<img src="assets/Screenshot 2026-05-28 at 10.17.08 PM.png" width="100%">
+![Strategy Backtesting](assets/backtesting.png)
 
 ---
 
 ## News Sentiment Analysis
 
-<img src="assets/Screenshot 2026-05-28 at 10.17.27 PM.png" width="100%">
+![News Sentiment](assets/sentiment.png)
 
+---
 
 # Future Improvements
 
