@@ -17,6 +17,17 @@ import plotly.express as px
 from textblob import TextBlob
 import feedparser
 
+@st.cache_data(ttl=3600)
+def load_data(ticker, start_date, end_date):
+
+    data = load_data(
+        ticker,
+        start=start_date,
+        end=end_date
+    )
+
+    return data
+
 def show_overview():
     current_price = data['Close'].iloc[-1]
     highest_price = data['High'].max()
